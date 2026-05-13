@@ -1,0 +1,46 @@
+{
+    "project_name": "Rural Water Infrastructure Maintenance Cost Prediction System",
+    "algorithm": "Particle Swarm Optimization Feature Selection",
+    "dataset_rows": 79949,
+    "dataset_columns": 14,
+    "selected_features": [
+        "State",
+        "No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___Rs10000_to_50000",
+        "No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___More_than_Rs_100000",
+        "maintenance_score",
+        "high_cost_ratio"
+    ],
+    "pso_best_score": 0.99692220452906,
+    "results": [
+        {
+            "Model": "PSO + Random Forest",
+            "R2_Score": 0.9941136985925031,
+            "Accuracy_Percentage": 99.41136985925031,
+            "MAE": 882.9274371502717,
+            "RMSE": 50339.15078845672,
+            "Selected_Features_Count": 5
+        },
+        {
+            "Model": "PSO + Deep Learning",
+            "R2_Score": 0.9987619972347707,
+            "Accuracy_Percentage": 99.87619972347707,
+            "MAE": 4989.08302599822,
+            "RMSE": 23085.827381639636,
+            "Selected_Features_Count": 5
+        }
+    ],
+    "saved_files": {
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\pso_model.h5",
+        "pkl_model": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\pso_model.pkl",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\pso_prediction.csv",
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\pso_result.csv",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\pso_accuracy_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\pso_heatmap.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\pso_comparison_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\pso_prediction_graph.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\pso_result_graph.png",
+        "training_loss_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\pso_training_loss_graph.png",
+        "feature_importance_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\pso_feature_importance_graph.png",
+        "pso_progress_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\pso_pso_progress_graph.png"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "dataset_rows": 79949,
+    "dataset_columns": 14,
+    "results": [
+        {
+            "Model": "Random Forest",
+            "R2_Score": 0.9882024668780758,
+            "Accuracy_Percentage": 98.82024668780758,
+            "MAE": 1476.1093108414875,
+            "RMSE": 71265.64814406444
+        },
+        {
+            "Model": "Gradient Boosting",
+            "R2_Score": 0.996064566648388,
+            "Accuracy_Percentage": 99.6064566648388,
+            "MAE": 2351.9904676920873,
+            "RMSE": 41160.52613962382
+        },
+        {
+            "Model": "Deep Learning",
+            "R2_Score": 0.9999752443217451,
+            "Accuracy_Percentage": 99.99752443217452,
+            "MAE": 1433.514075965775,
+            "RMSE": 3264.5404293451825
+        }
+    ],
+    "best_model": "Deep Learning"
+}
