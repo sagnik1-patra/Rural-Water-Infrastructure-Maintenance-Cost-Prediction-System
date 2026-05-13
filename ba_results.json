@@ -1,0 +1,46 @@
+{
+    "project_name": "Rural Water Infrastructure Maintenance Cost Prediction System",
+    "algorithm": "Bat Algorithm Feature Selection",
+    "dataset_rows": 79949,
+    "dataset_columns": 14,
+    "selected_features": [
+        "State",
+        "No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___More_than_Rs_100000",
+        "total_schemes",
+        "maintenance_score",
+        "high_cost_ratio"
+    ],
+    "ba_best_score": 0.9965643369898842,
+    "results": [
+        {
+            "Model": "BA + Random Forest",
+            "R2_Score": 0.992012879787769,
+            "Accuracy_Percentage": 99.2012879787769,
+            "MAE": 966.269473681684,
+            "RMSE": 58638.080735981384,
+            "Selected_Features_Count": 5
+        },
+        {
+            "Model": "BA + Deep Learning",
+            "R2_Score": 0.999918261530597,
+            "Accuracy_Percentage": 99.9918261530597,
+            "MAE": 2643.1629341385405,
+            "RMSE": 5931.955537763207,
+            "Selected_Features_Count": 5
+        }
+    ],
+    "saved_files": {
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\ba_model.h5",
+        "pkl_model": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\ba_model.pkl",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\ba_prediction.csv",
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\ba_result.csv",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\ba_accuracy_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\ba_heatmap.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\ba_comparison_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\ba_prediction_graph.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\ba_result_graph.png",
+        "training_loss_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\ba_training_loss_graph.png",
+        "feature_importance_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\ba_feature_importance_graph.png",
+        "ba_progress_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\ba_ba_progress_graph.png"
+    }
+}
