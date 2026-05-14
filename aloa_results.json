@@ -1,0 +1,46 @@
+{
+    "project_name": "Rural Water Infrastructure Maintenance Cost Prediction System",
+    "algorithm": "Ant Lion Optimization Algorithm Feature Selection",
+    "dataset_rows": 79949,
+    "dataset_columns": 14,
+    "selected_features": [
+        "State",
+        "No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___Rs1000_to_10000",
+        "No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___More_than_Rs_100000",
+        "maintenance_score",
+        "high_cost_schemes"
+    ],
+    "aloa_best_score": 0.995811478254514,
+    "results": [
+        {
+            "Model": "ALOA + Random Forest",
+            "R2_Score": 0.9918263323354742,
+            "Accuracy_Percentage": 99.18263323354742,
+            "MAE": 1143.7228351886854,
+            "RMSE": 59318.90485057847,
+            "Selected_Features_Count": 5
+        },
+        {
+            "Model": "ALOA + Deep Learning",
+            "R2_Score": 0.9992964358247866,
+            "Accuracy_Percentage": 99.92964358247866,
+            "MAE": 7049.10061386888,
+            "RMSE": 17403.49590500858,
+            "Selected_Features_Count": 5
+        }
+    ],
+    "saved_files": {
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\aloa_model.h5",
+        "pkl_model": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\aloa_model.pkl",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\aloa_prediction.csv",
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\aloa_result.csv",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\aloa_accuracy_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\aloa_heatmap.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\aloa_comparison_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\aloa_prediction_graph.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\aloa_result_graph.png",
+        "training_loss_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\aloa_training_loss_graph.png",
+        "feature_importance_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\aloa_feature_importance_graph.png",
+        "aloa_progress_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\aloa_aloa_progress_graph.png"
+    }
+}
