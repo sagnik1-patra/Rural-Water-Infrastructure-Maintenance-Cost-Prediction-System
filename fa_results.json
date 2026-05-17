@@ -1,0 +1,48 @@
+{
+    "project_name": "Rural Water Infrastructure Maintenance Cost Prediction System",
+    "algorithm": "Firefly Algorithm Feature Selection",
+    "dataset_rows": 79949,
+    "dataset_columns": 14,
+    "selected_features": [
+        "Village",
+        "No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___Rs1000_to_10000",
+        "No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___Rs10000_to_50000",
+        "No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___Rs50000_to_100000",
+        "No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___More_than_Rs_100000",
+        "maintenance_score",
+        "high_cost_ratio"
+    ],
+    "fa_best_score": 0.9968281345589328,
+    "results": [
+        {
+            "Model": "FA + Random Forest",
+            "R2_Score": 0.9942700113852413,
+            "Accuracy_Percentage": 99.42700113852413,
+            "MAE": 926.4993015689961,
+            "RMSE": 49666.26668483776,
+            "Selected_Features_Count": 7
+        },
+        {
+            "Model": "FA + Deep Learning",
+            "R2_Score": 0.9997150556064616,
+            "Accuracy_Percentage": 99.97150556064615,
+            "MAE": 3138.0387733116095,
+            "RMSE": 11075.534514901436,
+            "Selected_Features_Count": 7
+        }
+    ],
+    "saved_files": {
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\fa_model.h5",
+        "pkl_model": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\fa_model.pkl",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\fa_prediction.csv",
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\fa_result.csv",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\fa_accuracy_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\fa_heatmap.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\fa_comparison_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\fa_prediction_graph.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\fa_result_graph.png",
+        "training_loss_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\fa_training_loss_graph.png",
+        "feature_importance_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\fa_feature_importance_graph.png",
+        "fa_progress_graph": "C:\\Users\\NXTWAVE\\Downloads\\Rural Water Infrastructure Maintenance Cost Prediction System\\fa_fa_progress_graph.png"
+    }
+}

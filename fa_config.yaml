@@ -1,0 +1,57 @@
+algorithm: FA
+all_features:
+- State
+- District
+- Block_Tehsil
+- Village
+- No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___Upto_Rs_1000
+- No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___Rs1000_to_10000
+- No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___Rs10000_to_50000
+- No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___Rs50000_to_100000
+- No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___More_than_Rs_100000
+- total_schemes
+- maintenance_score
+- high_cost_schemes
+- high_cost_ratio
+dataset_path: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance Cost
+  Prediction System\mi_census5_13-14_Table6.6.csv
+files:
+  accuracy_graph: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance
+    Cost Prediction System\fa_accuracy_graph.png
+  comparison_graph: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance
+    Cost Prediction System\fa_comparison_graph.png
+  fa_progress_graph: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance
+    Cost Prediction System\fa_fa_progress_graph.png
+  feature_importance_graph: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure
+    Maintenance Cost Prediction System\fa_feature_importance_graph.png
+  h5_model: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance Cost
+    Prediction System\fa_model.h5
+  heatmap: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance Cost
+    Prediction System\fa_heatmap.png
+  pkl_model: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance Cost
+    Prediction System\fa_model.pkl
+  prediction_csv: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance
+    Cost Prediction System\fa_prediction.csv
+  prediction_graph: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance
+    Cost Prediction System\fa_prediction_graph.png
+  result_csv: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance Cost
+    Prediction System\fa_result.csv
+  result_graph: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance
+    Cost Prediction System\fa_result_graph.png
+  training_loss_graph: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance
+    Cost Prediction System\fa_training_loss_graph.png
+models_used:
+- FA + Random Forest
+- FA + Deep Learning
+output_directory: C:\Users\NXTWAVE\Downloads\Rural Water Infrastructure Maintenance
+  Cost Prediction System
+project_name: Rural Water Infrastructure Maintenance Cost Prediction System
+selected_features:
+- Village
+- No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___Rs1000_to_10000
+- No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___Rs10000_to_50000
+- No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___Rs50000_to_100000
+- No_of_Surface_lift_Schemes_according_to_the_annual_cost_of_maintenance___More_than_Rs_100000
+- maintenance_score
+- high_cost_ratio
+target_column: maintenance_risk_score
